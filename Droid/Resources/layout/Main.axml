@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+    android:id="@+id/globalLayout"
+	tools:visibility="visible">
+	
+	<android.support.v7.widget.Toolbar
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/actionBarSize"
+		android:background="@color/dark_green"
+		android:id="@+id/my_toolbar">
+		<ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+			 android:contentDescription="@string/desc"
+			 android:src="@drawable/Circle"/>
+	</android.support.v7.widget.Toolbar>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:id="@+id/sheeps_container"
+		android:layout_marginTop="8dp">
+		<TextView
+			android:text="@string/number"
+			android:gravity="center"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:id="@+id/textViewNumbSheep"
+			android:textColor="@color/yellow"
+			android:background="@color/blue"
+			android:textAlignment="center"
+			android:textSize="20dp"
+			android:textStyle="normal|bold"
+			android:editable="false"/>
+	</LinearLayout>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18dp"
+		android:hint="@string/nameOfAnimal"
+		android:background="@color/dark_green"
+		android:textColor="@color/black"
+		android:layout_marginTop="8dp"
+		android:id="@+id/textNameOfAnimal"
+		android:freezesText="true"
+		android:gravity="center"
+		android:visibility="gone"
+		android:inputType="text" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:layout_marginTop="8dp">
+		<TextView
+			android:text="@string/type"
+			android:layout_weight="50"
+            android:background="@color/light_blue"
+            android:textColor="@color/white"
+            android:gravity="right"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"/>
+		<Spinner
+            android:spinnerMode="dropdown"
+			android:layout_weight="50"
+            android:background="@color/white"
+            android:textColor="@color/light_blue"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+            android:entries="@array/type_animal"
+			android:id="@+id/animalChoice"/>
+	</LinearLayout>
+
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+        android:layout_marginTop="8dp">
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/listOfAnimals"
+			android:scrollbars="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

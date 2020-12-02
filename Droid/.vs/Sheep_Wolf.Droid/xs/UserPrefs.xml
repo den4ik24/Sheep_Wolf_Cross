@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{A642566C-F28D-43AE-B9E0-3B1826F2E286}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sheep_Wolf.Droid" expanded="True">
+            <Node name="Sheep_Wolf.Droid" expanded="True">
+              <Node name="Transformations" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sheep__Wolf.Droid PreferredExecutionTarget="Android.pixel_3_xl_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

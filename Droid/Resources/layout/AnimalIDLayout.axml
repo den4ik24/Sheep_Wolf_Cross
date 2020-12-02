@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+        android:orientation="horizontal"
+		android:layout_weight="4" >
+
+		<ImageView
+			android:src="@drawable/sheep"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+            android:contentDescription="@string/desc"
+            android:id="@+id/imageAnimal"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:orientation="vertical">
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:textSize="25dp"
+				android:text="@string/animalName"
+				android:gravity="center_vertical"
+				android:textColor="@color/blue"
+				android:background="@color/yellow"
+				android:paddingLeft="8dp"
+				android:layout_marginTop="1dp"
+				android:id="@+id/textView1"
+				android:textStyle="bold" />
+			<TextView
+				android:text="@string/text"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:textSize="25dp"
+				android:gravity="right"
+				android:textColor="@color/blue"
+				android:background="@color/yellow"
+				android:paddingRight="8dp"
+				android:layout_marginTop="1dp"
+				android:id="@+id/textViewSheepsName"
+				android:textStyle="italic|bold" />
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:textSize="20dp"
+				android:text="@string/titles"
+				android:gravity="center_vertical"
+				android:textColor="@color/yellow"
+				android:background="@color/blue"
+				android:paddingLeft="8dp"
+				android:layout_marginTop="1dp"
+				android:id="@+id/whoKillMe"
+				android:textStyle="bold"
+				android:visibility="gone"/>
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:textSize="20dp"
+				android:gravity="right"
+				android:text="@string/sheep"
+				android:textColor="@color/yellow"
+				android:background="@color/blue"
+				android:paddingRight="8dp"
+				android:layout_marginTop="1dp"
+				android:id="@+id/animalType"
+				android:textStyle="bold|italic" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:id="@+id/starsLayout"
+		android:orientation="horizontal">
+	</LinearLayout>
+
+	<ImageView
+		android:id="@+id/animalsFoto"
+		android:src="@android:drawable/ic_menu_gallery"
+        android:contentDescription="@string/desc"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="4"/>
+	
+</LinearLayout>
