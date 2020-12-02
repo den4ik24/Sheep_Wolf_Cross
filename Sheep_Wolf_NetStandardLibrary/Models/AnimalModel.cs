@@ -1,10 +1,10 @@
-﻿//using SQLite;
+﻿using SQLite;
 
 namespace Sheep_Wolf.Core.Models
 {
     public class AnimalModel
     {
-        //[PrimaryKey]
+        [PrimaryKey]
         public string Id { get; set; }
         public string Name { get; set; }
         public string URL { get; set; }

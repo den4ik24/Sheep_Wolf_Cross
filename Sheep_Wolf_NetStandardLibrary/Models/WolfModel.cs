@@ -1,9 +1,9 @@
 ﻿using System;
-//using SQLite;
+using SQLite;
 
 namespace Sheep_Wolf.Core.Models
 {
-    //[Table("Wolves")]
+    [Table("Wolves")]
     public class WolfModel : AnimalModel
     {
         readonly static Random random = new Random();

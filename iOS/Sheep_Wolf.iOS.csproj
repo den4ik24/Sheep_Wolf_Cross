@@ -112,11 +112,6 @@
     <Reference Include="SQLite-net">
       <HintPath>..\packages\sqlite-net-pcl.1.7.335\lib\netstandard2.0\SQLite-net.dll</HintPath>
     </Reference>
-    <Reference Include="MvvmCross">
-      <HintPath>..\packages\MvvmCross.7.1.2\lib\xamarinios10\MvvmCross.dll</HintPath>
-    </Reference>
-    <Reference Include="OpenTK-1.0" />
-    <Reference Include="System.Drawing.Common.dll" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -192,8 +187,8 @@
     <BundleResource Include="Resources\Circle.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sheep_Wolf.Core\Sheep_Wolf.Core.csproj">
-      <Project>{518847B1-4692-4195-BE23-303FF935A938}</Project>
+    <ProjectReference Include="..\Sheep_Wolf_NetStandardLibrary\Sheep_Wolf.Core.csproj">
+      <Project>{79C68313-6601-4DE6-885B-AD5799A9A192}</Project>
       <Name>Sheep_Wolf.Core</Name>
     </ProjectReference>
   </ItemGroup>

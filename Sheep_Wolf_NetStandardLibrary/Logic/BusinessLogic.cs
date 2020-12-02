@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Timers;
-//using MvvmCross.ViewModels;
 using Sheep_Wolf.Core.KeysType;
 using Sheep_Wolf.Core.Models;
 using MvvmCross.ViewModels;

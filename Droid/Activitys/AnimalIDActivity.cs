@@ -4,9 +4,9 @@ using Android.OS;
 using Android.Widget;
 using Square.Picasso;
 using Sheep_Wolf.Core.Logic;
+using Sheep_Wolf.Core.Models;
 using Sheep_Wolf.Core.KeysType;
 using Android.Views;
-using Sheep_Wolf.Core.Models;
 
 namespace Sheep_Wolf.Droid
 {

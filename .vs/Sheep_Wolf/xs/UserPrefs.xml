@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{A642566C-F28D-43AE-B9E0-3B1826F2E286}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Setup.cs">
     <Files>
-      <File FileName="Sheep_Wolf.Core/App.cs" Line="20" Column="40" />
-      <File FileName="Sheep_Wolf.Core/Logic/BusinessLogic.cs" Line="7" Column="30" />
-      <File FileName="Droid/Setup.cs" Line="11" Column="6" />
+      <File FileName="Sheep_Wolf_NetStandardLibrary/App.cs" Line="1" Column="1" />
+      <File FileName="Droid/Activitys/MainActivity.cs" Line="21" Column="76" />
+      <File FileName="Droid/Setup.cs" Line="6" Column="29" />
+      <File FileName="Sheep_Wolf_NetStandardLibrary/Logic/BusinessLogic.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Sheep_Wolf_Cross" expanded="True">
-            <Node name="Sheep_Wolf.Core" expanded="True">
-              <Node name="Logic" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
+          <Node name="Sheep_Wolf" expanded="True" selected="True">
+            <Node name="Sheep_Wolf.Core" expanded="True" />
             <Node name="Sheep_Wolf.Droid" expanded="True">
-              <Node name="Packages" selected="True" />
+              <Node name="Activitys" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -22,7 +20,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Sheep__Wolf.Droid PreferredExecutionTarget="Android.pixel_3_xl_q_10_0_-_api_29" />
+  <MonoDevelop.Ide.ItemProperties.Sheep__Wolf.Droid AndroidDesignerPreferredTheme="AppTheme" PreferredExecutionTarget="Android.pixel_3_xl_q_10_0_-_api_29" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

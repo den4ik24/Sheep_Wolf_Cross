@@ -1,6 +1,4 @@
-﻿using MvvmCross;
-using MvvmCross.ViewModels;
-using MvvmCross.IoC;
+﻿using MvvmCross.IoC;
 using MvvmCross.ViewModels;
 using Sheep_Wolf.Core.Logic;
 
@@ -14,9 +12,7 @@ namespace Sheep_Wolf.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-            //Mvx.IoCProvider.RegisterSingleton(() => UserDialogs.Instance);
 
-            //RegisterNavigationServiceAppStart<BusinessLogic>();
             RegisterAppStart<BusinessLogic>();
         }
     }

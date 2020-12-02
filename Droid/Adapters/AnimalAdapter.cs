@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
-using Sheep_Wolf.Core.Logic;
 using Sheep_Wolf.Core.Models;
 using Square.Picasso;
 
