@@ -1,11 +1,16 @@
-﻿using Sheep_Wolf.Core;
-using MvvmCross.Droid.Support.V7.AppCompat;
+﻿using System;
+using Android.App;
+using Android.Runtime;
+using Sheep_Wolf.Core;
+using MvvmCross.Platforms.Android.Core;
+using MvvmCross.Platforms.Android.Views;
 
 namespace Sheep_Wolf.Droid
 {
-    public class Setup : MvxAppCompatSetup<App>
+    [Application]
+    public class MainApplication : MvxAndroidApplication<MvxAndroidSetup<App>, App>
     {
-        public Setup()
+        public MainApplication(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
         {
         }
     }

@@ -6,6 +6,7 @@ using Android.Graphics.Drawables;
 using Android.OS;
 using Android.Support.V4.Content;
 using Android.Support.V7.App;
+//using AndroidX.AppCompat.Widget;
 using Android.Support.V7.Widget;
 using Android.Text;
 using Android.Views;
@@ -15,11 +16,12 @@ using Sheep_Wolf.Core.Logic;
 using Sheep_Wolf.Core.KeysType;
 using Sheep_Wolf.Core.Models;
 using V7Toolbar = Android.Support.V7.Widget.Toolbar;
+using MvvmCross.Platforms.Android.Views;
 
 namespace Sheep_Wolf.Droid
 {
     [Activity(Label = "Circle of Life", Icon = "@mipmap/icon", MainLauncher = true)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : MvxActivity<BusinessLogic>
     {
         TextView _textViewNumbSheep;
         RecyclerView _listOfAnimals;
@@ -61,6 +63,11 @@ namespace Sheep_Wolf.Droid
 
             _textNameOfAnimal.TextChanged += TextNameOfAnimal_TextChanged;
         }
+
+        //private void SetSupportActionBar(V7Toolbar myToolbar)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         private void AnimalChoice_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
         {

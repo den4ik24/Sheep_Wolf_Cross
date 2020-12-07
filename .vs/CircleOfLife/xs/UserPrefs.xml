@@ -2,20 +2,23 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Activitys/MainActivity.cs">
     <Files>
       <File FileName="Sheep_Wolf_NetStandardLibrary/App.cs" Line="1" Column="1" />
-      <File FileName="Droid/Activitys/MainActivity.cs" Line="21" Column="76" />
+      <File FileName="Droid/Activitys/MainActivity.cs" Line="70" Column="12" />
       <File FileName="Droid/Setup.cs" />
       <File FileName="Sheep_Wolf_NetStandardLibrary/Logic/BusinessLogic.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Sheep_Wolf" expanded="True">
+          <Node name="CircleOfLife" expanded="True">
             <Node name="Sheep_Wolf.Core" expanded="True">
               <Node name="Logic" expanded="True" />
             </Node>
             <Node name="Sheep_Wolf.Droid" expanded="True">
               <Node name="Activitys" expanded="True">
                 <Node name="MainActivity.cs" selected="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
               </Node>
             </Node>
           </Node>
